@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../floating.srcs/sources_1/new/cla24bit.vhd" \
+"../../../../floating.srcs/sources_1/new/cla4bit.vhd" \
+"../../../../floating.srcs/sources_1/new/modul4.vhd" \
+"../../../../floating.srcs/sources_1/new/multiplication.vhd" \
+"../../../../floating.srcs/sim_1/new/modul4_test.vhd" \
+
+# Do not sort compile order
+nosort
